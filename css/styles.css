@@ -419,6 +419,10 @@ ul {
 /* ==========what we do_ END======= */
 /* =============team======== */
 .team {
+  background-color: var(--white-color);
+}
+
+.team__style {
   display: flex;
   flex-direction: column;
   gap: 50px;
