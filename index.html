@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/variables.min.css">
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -44,9 +46,9 @@
 
         <ul class="contact">
           <li>
-            <a class="header__contact" href="mailto:info@devstudio.com"
+            <a class="contact__header" href="mailto:info@devstudio.com"
               ><svg
-                class="header__contact--envelopeIcon"
+                class="contact__header--envelopeIcon"
                 width="16"
                 height="12"
               >
@@ -55,8 +57,8 @@
             >
           </li>
           <li>
-            <a class="header__contact" href="tel:+48111111111"
-              ><svg class="header__contact--phoneIcon" width="10" height="16">
+            <a class="contact__header" href="tel:+48111111111"
+              ><svg class="contact__header--phoneIcon" width="10" height="16">
                 <use href="./images/icons.svg#icon-phone"></use></svg
               >+48 111 111 111</a
             >
@@ -77,8 +79,8 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container paragraphs">
+      <section class="section paragraphs">
+        <div class="container paragraphs__section">
           <ul class="paragraphs__icons">
             <li class="paragraph__icon">
               <svg width="70px">
@@ -110,21 +112,21 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="paragraph">
+            <li class="paragraph__content">
               <h4 class="paragraph__title">LOREM IPSUM</h4>
               <p class="paragraph__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="paragraph">
+            <li class="paragraph__content">
               <h4 class="paragraph__title">LOREM IPSUM</h4>
               <p class="paragraph__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="paragraph">
+            <li class="paragraph__content">
               <h4 class="paragraph__title">LOREM IPSUM</h4>
               <p class="paragraph__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -136,10 +138,10 @@
       </section>
 
       <section class="section">
-        <div class="container offer">
-          <h2 class="section__title">Czym się zajmujemy</h2>
+        <div class="container work">
+          <h2 class="section__title work_heading">Czym się zajmujemy</h2>
 
-          <ul class="work">
+          <ul class="work__list">
             <li class="work__item">
               <img
                 class="work__photo"
@@ -441,8 +443,8 @@
 
       <div class="section">
         <div class="container customers">
-          <h2 class="section__title">Nasi klienci</h2>
-          <ul class="clients">
+          <h2 class="section__title customers-title">Nasi klienci</h2>
+          <ul class="customers__list">
             <li class="client">
               <svg class="client__logo" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-first-client"></use>
